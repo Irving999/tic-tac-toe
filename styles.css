@@ -1,0 +1,67 @@
+.darumadrop-one-regular {
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bangers", system-ui;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 5vh;
+}
+
+.gameboard {
+    margin: auto;
+    text-align: center;
+
+    font-size: 3rem;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 5rem;
+    width: 50vw;
+    height: 50vh;
+    border-collapse: collapse;
+}
+
+.option {
+    border: 3px solid black;
+    border-width: 5px;
+    cursor: pointer;
+    width: 33%;
+    height: 33%;
+}
+
+.option:hover {
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+.row .option:first-child {
+    border-left: none;
+}
+
+.row .option:last-child {
+    border-right: none;
+}
+
+.first.row .option {
+    border-top: none;
+}
+
+.last.row .option {
+    border-bottom: none;
+}
+
