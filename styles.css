@@ -65,6 +65,9 @@ button.player-selected {
     border-width: 5px;
     width: 33%;
     height: 33%;
+    font-size: 5rem;
+    position: relative;
+    bottom: 10px;
 }
 
 .highlight {
@@ -102,5 +105,3 @@ button.player-selected {
     color: red;
     cursor: pointer;
 }
-
-
