@@ -10,28 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Darumadrop+One&family=Margarine&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></head>
 <body>
 
-    <h1>Tic Tac Toe</h1>
+    <h1 class="message">Choose your Player</h1>
+    
+    <div class="buttons">
+        <button>x</button>
+        <button>o</button>
+    </div>
 
-    <table class="gameboard">
-        <tbody>
+    <table class="gameboard-container">
+        <tbody class="table">
             <tr class="first row">
-                <td class="option 1"></td>
-                <td class="option 2"></td>
-                <td class="option 3"></td>
+                <td class="option" data-index="0"></td>
+                <td class="option" data-index="1"></td>
+                <td class="option" data-index="2"></td>
             </tr>
             <tr class="middle row">
-                <td class="option 4"></td>
-                <td class="option 5"></td>
-                <td class="option 6"></td>
+                <td class="option" data-index="3"></td>
+                <td class="option" data-index="4"></td>
+                <td class="option" data-index="5"></td>
             </tr>
             <tr class="last row">
-                <td class="option 7"></td>
-                <td class="option 8"></td>
-                <td class="option 9"></td>
+                <td class="option" data-index="6"></td>
+                <td class="option" data-index="7"></td>
+                <td class="option" data-index="8"></td>
             </tr>
         </tbody>
-    </table>
-    
+    </table>    
+
+    <div class="restart"></div>
     <script src="script.js"></script>
 </body>
 </html>
